@@ -6,4 +6,4 @@ This repository holds files offered up as a demonstration.  Here is a simple app
 https://libmanuk.net/demo/sensitive/index.php
 
 
-Sensitive Image Subject: Melvil Dewey (Great Pyrenees)
+Sensitive Image Subject: Dewey Melvil (Great Pyrenees)
