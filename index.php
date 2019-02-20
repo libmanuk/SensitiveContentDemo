@@ -9,12 +9,12 @@
 $sensitiveText = "murder,dead,blood";
 $dctitle = "Crime scene photo of an unidentified murder victim.";
 
-$mySensitiveArray = explode(',', $sensitiveText);
-$needles = $mySensitiveArray;
+$SensitiveArray = explode(',', $sensitiveText);
+$sensitives = $SensitiveArray;
 
-foreach ($needles as $needle)
+foreach ($sensitives as $sensitive)
 {
-    if (stripos($dctitle, $needle) !== FALSE)
+    if (stripos($dctitle, $sensitive) !== FALSE)
     {
         $sensitiveFlag = "true";
 
