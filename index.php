@@ -14,24 +14,18 @@ $sensitives = $SensitiveArray;
 
 foreach ($sensitives as $sensitive)
 {
-    if (stripos($dctitle, $sensitive) !== FALSE)
-    {
+    if (stripos($dctitle, $sensitive) !== FALSE) {
         $sensitiveFlag = "true";
-
     } elseif (strpos($dcsource, $needle) !== FALSE) {
-
         $sensitiveFlag = "true";
     }
 }
-
 
 if ("true" == $sensitiveFlag):
 
 echo "<div><p id=\"clickSense\"><img src=\"sharp_sensitive.png\" onclick=\"show('sensitive_image'); hide('clickSense')\" alt=\"click me\" style=\"text-align:center\"></p>";
 
-
 echo "<div id=\"sensitive_image\" style=\"display:none;\"><img src=\"sensitive_image.jpg\" style=\width:480px;height:480px;\"/></div></div>";
-
 
 else:
 
