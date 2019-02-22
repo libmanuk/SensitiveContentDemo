@@ -14,15 +14,15 @@ $sensitiveText = "tongue";
 $dctitle = "Young Dewey Melvil (Great Pyrenees) sticking out his tongue.";
 
 $mySensitiveArray = explode(',', $sensitiveText);
-$needles = $mySensitiveArray;
+$sensitives = $mySensitiveArray;
 
-foreach ($needles as $needle)
+foreach ($sensitives as $sensitive)
 {
-    if (stripos($dctitle, $needle) !== FALSE)
+    if (stripos($dctitle, $sensitive) !== FALSE)
     {
         $sensitiveFlag = "true";
 
-    } elseif (strpos($dcsource, $needle) !== FALSE) {
+    } elseif (strpos($dcsource, $sensitive) !== FALSE) {
 
         $sensitiveFlag = "true";
     }
