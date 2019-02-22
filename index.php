@@ -5,7 +5,7 @@
 </head>
 <body>
     <div id="header"><h3>Sensitive Content Filter Demo</h3>
-    <p>GitHub (<a href="https://github.com/libmanuk/SensitiveContentDemo" target=\"_blank\">https://github.com/libmanuk/SensitiveContentDemo</a>)</p>
+    
     <h2 class="caption">Young Dewey Melvil (Great Pyrenees) sticking out his tongue.</h2></div>
 <?php
 
@@ -31,7 +31,7 @@ foreach ($needles as $needle)
 
 if ("true" == $sensitiveFlag):
 
-echo "<div>\n<p id=\"tap_text\">click or tap to view image</p>\n<p id=\"clickSense\">\n<img src=\"sharp_sensitive.png\" onclick=\"show('sensitive_image'); hide('clickSense')\" alt=\"click me\" style=\"text-align:center\" class=\"center_simage\">\n</p>\n";
+echo "<div>\n<p id=\"clickSense\">\n<span id=\"tap_text\">click or tap to view image</span>\n<img src=\"sharp_sensitive.png\" onclick=\"show('sensitive_image'); hide('clickSense')\" alt=\"click me\" style=\"text-align:center\" class=\"center_simage\">\n</p>\n";
 
 
 echo "<div id=\"sensitive_image\" style=\"display:none;\">\n<img src=\"sensitive_image.jpg\" style=\width:480px;height:480px;\" class=\"center_image\"/>\n</div>\n</div>\n";
@@ -58,5 +58,7 @@ endif;
     document.getElementById(target).style.display = str;
   }
 </script>
+
+<p id="github">view on (<a href="https://github.com/libmanuk/SensitiveContentDemo" target=\"_blank\">GitHub</a>)</p>
 
 </html>
