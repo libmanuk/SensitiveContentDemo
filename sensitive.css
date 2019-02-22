@@ -1,20 +1,31 @@
 body {
   background-color: #696766;
-  color: #fff;
+  color: lightgray;
   font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 
 #header {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid lightgray;
     margin-bottom: 20px;
 }
 
 #tap_text {
     text-align: center;
+    display: block;
+    padding-bottom: 20px;
+}
+
+#github {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+  float: right;
 }
 
 .caption {
-    color: lightgray;
+    color: lightblue;
     text-align: center;
 }
 
@@ -32,3 +43,4 @@ body {
   width: 480px;
   border: 1px solid DodgerBlue;
 }
+
