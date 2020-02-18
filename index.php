@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Sensitive Content Filter Demo</title>
